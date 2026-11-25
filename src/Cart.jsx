@@ -29,7 +29,7 @@ function Cart({ alldata }) {
                             </div>
                         </div>
 
-                        : turn.id == 2 ?
+                        : turn.id === 2 ?
                             <div className='.container text-center my-5' key={turn.id}>
                                 <h4>not found</h4>
                             </div>:
